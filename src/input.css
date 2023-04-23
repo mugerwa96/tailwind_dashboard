@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.top_submenu_link{
+    @apply text-xs p-2 rounded overflow-hidden transition-all duration-700 cursor-pointer hover:bg-primary hover:text-white
+}
+.btn-primary{
+    @apply px-4 py-1 border-2 border-primary bg-primary font-semibold text-white text-sm rounded hover:bg-white hover:text-primary duration-700 transition-all
+}
+.btn-outline{
+    @apply px-4 py-1 border-2 border-primary font-semibold text-primary text-sm rounded hover:bg-primary hover:text-white duration-700 transition-all
+}
